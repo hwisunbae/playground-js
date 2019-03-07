@@ -10,7 +10,7 @@ john.yearOfBirth = 1990;
 john.job = 'teacher';
 
 var jane = Object.create(personProto, {
-    name: { value : 'Jane'},
-    yearOfBirth: {value : 2000},
-    job : {value: 'studnet'}
+    name: { value : 'Jane' },
+    yearOfBirth: { value : 2000 },
+    job : { value: 'student' }
 });
